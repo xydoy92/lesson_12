@@ -1,24 +1,24 @@
-// First task
+// MathAlert task
 
-let yourNumber = +prompt("Enter your number");
-let yourPlus = +prompt("Add to the number");
-let yourMinus = +prompt("Subtract from the number");
-let yourMultiply = +prompt("Multiply by");
-let yourDivide = +prompt("Divide by");
-let yourResult = (yourNumber + yourPlus - yourMinus) * yourMultiply / yourDivide;
-alert(`(${yourNumber} + ${yourPlus} - ${yourMinus})*${yourMultiply}/${yourDivide} = ${yourResult}`);
+let userInitialNumber = +prompt("Enter your number");
+let userNumberToAdd = +prompt("Add to the number");
+let userNumberToSubtract = +prompt("Subtract from the number");
+let userNumberToMultiply = +prompt("Multiply by");
+let userNumberToDivide = +prompt("Divide by");
+let userResult = (userInitialNumber + userNumberToAdd - userNumberToSubtract) * userNumberToMultiply / userNumberToDivide;
+alert(`(${userInitialNumber} + ${userNumberToAdd} - ${userNumberToSubtract})*${userNumberToMultiply}/${userNumberToDivide} = ${userResult}`);
 
-// Second task
+// TypeofConsoleOut task
 
-let justANumber = 1;
-let justAString = "1";
-let justABoolean = true;
-console.log(`Переменная justANumber имеет тип ${typeof justANumber}`);
-console.log(`Переменная justAString имеет тип ${typeof justAString}`);
-console.log(`Переменная justABoolean имеет тип ${typeof justABoolean}`);
+let typeValueNumber = 1;
+let typeValueString = "1";
+let typeValueBoolean = true;
+console.log(`Переменная justANumber имеет тип ${typeof typeValueNumber}`);
+console.log(`Переменная justAString имеет тип ${typeof typeValueString}`);
+console.log(`Переменная justABoolean имеет тип ${typeof typeValueBoolean}`);
 
-// Additional task
+// NumberToString task
 
-let firstNumber = 3;
-let secondNumber = 4;
-console.log(String(firstNumber) + String(secondNumber));
+let firstNumberToString = 3;
+let secondNumberToString = 4;
+console.log(String(firstNumberToString) + String(secondNumberToString));
