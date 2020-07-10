@@ -22,3 +22,4 @@ console.log(`Переменная justABoolean имеет тип ${typeof typeVa
 let firstNumberToString = 3;
 let secondNumberToString = 4;
 console.log(String(firstNumberToString) + String(secondNumberToString));
+console.log(firstNumberToString.toString() + secondNumberToString.toString());
